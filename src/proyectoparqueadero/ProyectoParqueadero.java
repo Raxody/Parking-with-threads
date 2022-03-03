@@ -20,8 +20,8 @@ public class ProyectoParqueadero {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        controlador objC = new controlador();
-        objC.iniciar(); 
+        controlador objControlador = new controlador();
+        objControlador.iniciar(); 
     }
     
 }
