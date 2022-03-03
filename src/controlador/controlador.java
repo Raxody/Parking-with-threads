@@ -95,9 +95,7 @@ public class controlador implements ActionListener, Runnable {
                 if (cambiador == true) {
                     this.tomarPuesto(puesto);
                 }
-                //     for (int i = 0; i < objParqueadero.getObjArrayCarros().size(); i++) {
-                //         System.out.println(objParqueadero.getObjArrayCarros().get(i).toString());
-                //     }
+       
                 objfrmParqueadero.getTxtPuestosVacios().setText(String.valueOf(objParqueadero.puestos()));
 
                 objfrmParqueadero.getTxtValorCaja1().setText(String.valueOf(objParqueadero.recaudo()));
