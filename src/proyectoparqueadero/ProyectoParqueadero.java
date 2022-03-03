@@ -15,11 +15,7 @@ import vista.frmParqueadero;
  */
 public class ProyectoParqueadero {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         controlador objControlador = new controlador();
         objControlador.iniciar(); 
     }
